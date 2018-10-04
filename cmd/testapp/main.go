@@ -8,8 +8,8 @@ import (
 	"time"
 
 	log "github.com/Sirupsen/logrus"
-	"github.com/coreos/etcd/clientv3"
-	"github.com/ropes/stonecutters"
+	"github.com/lytics/stonecutters"
+	"go.etcd.io/etcd/clientv3"
 )
 
 func main() {

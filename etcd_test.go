@@ -8,8 +8,8 @@ import (
 	"time"
 
 	log "github.com/Sirupsen/logrus"
-	"github.com/coreos/etcd/clientv3"
-	"github.com/coreos/etcd/embed"
+	"go.etcd.io/etcd/clientv3"
+	"go.etcd.io/etcd/embed"
 )
 
 var (
